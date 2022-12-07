@@ -1,6 +1,8 @@
-function reverse(str) {
-    const result = str.split('').reverse().join('')
-    return result;
+
+
+function reversed(str) {
+    const revers = str.split('').reduce((curr,val)=> val + curr,'');
+    return revers;
 }
 
-console.log(reverse('Hello World'))
+console.log(reversed('Reverse'))
