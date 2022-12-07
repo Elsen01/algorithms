@@ -12,4 +12,4 @@ function palindromes(str) {
     })
 }
 
-console.log(palindromes('palinderomes'))
+console.log(palindromes('palinderom'))
