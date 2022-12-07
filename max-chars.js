@@ -39,4 +39,4 @@ function maxChars(str) {
     return charMap
 }
 
-console.log(maxChars('Programming'))
+console.log(maxChars('Max Chars'))
