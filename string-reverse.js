@@ -5,6 +5,8 @@ function reverse(str) {
 
 console.log(reverse('Hello World'))
 
+//---------------------------------------
+
 function reversed(str) {
     const revers = str.split('').reduce((curr,val)=> val + curr,'');
     return revers;
